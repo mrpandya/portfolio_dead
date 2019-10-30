@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="homepage.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/5b0670a554.js"></script>
+  <title>Home</title>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navi collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+    </div>
+  </nav>
+<body>
+        <script src="homepage.js"></script>
+
+     <div class="container-fluid main-text" id="section1">
+         <div class="col-lg-12">
+            <h1 class="nametext">Welcome to Manan's Page</h1>
+            <div class="container-fluid buttons">
+                    <a class="btn btn-1" href="#section2">SKILLS</a>
+                    <a class="btn btn-2" href="#section3">ABOUT</a>
+                    <a class="btn btn-3" href="#section4">CONTACT</a> 
+             </div>
+            <!-- <img width="40%" src="https://cdn.pixabay.com/photo/2018/09/24/08/31/pixel-cells-3699334_960_720.png" alt=""> -->
+        </div>
+     </div>
+     <section class="about-section">
+     <div class="container about-page" id="section3">
+         <h1 class="skilltext btn-1-skill btn-skill">ABOUT</h1>
+         <h2 class="about-text">I AM A WEB DEVELOPER</h2>
+         <h3 class="about">I am a FY student, trying to learn new things and explore various domains of computer science</h3>
+     </div>
+     </section>
+     <section class="skill-section">
+     <div class="container skillspage" id="section2">
+            <h1 class="skilltext btn-1-skill btn-skill">SKILLS</h1>
+               <p>C/C++</p>
+               <div class="container1">
+                 <div class="skills c">90%</div>
+               </div>
+               <p>HTML</p>
+               <div class="container1">
+                 <div class="skills html">80%</div>
+               </div>
+               <p>CSS</p>
+               <div class="container1">
+                 <div class="skills css">70%</div>
+               </div>
+               <p>PYTHON</p>
+               <div class="container1">
+                 <div class="skills python">50%</div>
+               </div>
+               <p>JAVASCRIPT</p>
+               <div class="container1">
+                   <div class="skills js">20%</div>
+               </div>
+               <div class="container11 Libraries">
+                   Libraries known
+                   <ol>
+                       <li>Bootstrap</li>
+                       <li>Pygame</li>
+                   </ol>
+               </div>
+        </div>
+    </section>
+    <section class="contact-section">
+    <div class="container" id="section4">
+            <h1 class="skilltext btn-1-skill btn-skill">CONTACT</h1>
+            <!--Section: Contact v.2-->
+<section class="mb-4">
+
+        <!--Section heading-->
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. I will come back to you within
+            a matter of hours to help you.</p>
+    
+        <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" value="" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" value="" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" value="" name="subject" class="form-control">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <input id="message" value="" type="text" id="clear" name="message" rows="2" class="form-control md-textarea cleary"></input>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="text-center text-md-left">
+                    <button class="btn btn-primary" onclick="cleary()">Send</button>
+                </div>
+                <div class="status"></div>
+            </div>
+        </div>
+    </section>
+    <!--Section: Contact v.2-->
+
+    </div>
+    </section>
+    <script src="homepage.js"></script>
+</body>
+
+<footer class="footer">
+        <a style="font-size:50px;" class="fa fa-github mr-4 text-white " href="https://github.com/manan001022j" ></a>
+        <a style="font-size:50px;" class="fa fa-linkedin mr-4 text-white " href="https://in.linkedin.com/in/manan-pandya-435215192" ></a>
+        <a style="font-size:50px;" class="fa fa-instagram mr-4 text-white " href="https://www.instagram.com/_mananpandya/" ></a>
+
+
+        <br>
+
+ made with <span style="color:red;font-size: 40px;">&hearts;</span> by Manan Pandya
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/css/tether.min.css"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,222 @@
+@keyframes name{
+    0% {color: transparent};
+    100%{color:darkgrey};
+}
+@keyframes image{
+    0% {visibility: hidden};
+    100%{visibility: initial};
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    margin:0;
+    background-color:#2E4053;
+    
+  }
+  .navbar-toggler{
+      background-color: aliceblue;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  
+  .navi{
+      background-color: transparent;
+      align-items:right;
+      animation: name 2s; 
+  }
+  .container{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+  .btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    background-size: 200% auto;
+    color: white;
+   text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 1px;
+    animation: name 1s; 
+   }
+  
+  .btn:hover {
+    background-position: right center;
+    background-color: aquamarine;
+  }
+  
+  .btn-1 {
+    background-color:#F5CBA7;
+    color:black;
+  }
+  
+  .btn-2 {
+    background-color: #D7BDE2;
+    color:black;
+  }
+  
+  .btn-3 {
+    background-color: #A3E4D7;
+    color:black;  }
+  
+  .nav-item{
+      margin:10%;
+      padding:10%;
+      color:whitesmoke;
+  }
+
+.main-text{
+    text-align: center;
+    color: #2ECC71;
+    padding-top: 10%;
+    animation: name 6s; 
+}
+.skillspage{
+    margin:0%;
+    padding-right: 0%;
+    padding-left:10%;
+    padding-top: 10%;
+    /* background-color: #95A5A6; */
+    margin: 0 auto;
+}
+#section1{
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/09/24/08/31/pixel-cells-3699334_960_720.png); */
+    /* background-repeat: no-repeat;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png");
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding-bottom: 20%;
+} 
+img{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    animation: image 8s;
+}
+@media only screen and (max-width:600px)
+{
+    .skilltext{
+        font-size: 8vw;
+    }
+    .about-section{
+        background-color:red;
+        color: aqua;
+    }
+
+}
+* {box-sizing:border-box}
+.container1 {
+  width: 100%; 
+  background-color:transparent;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+.html {width: 80%; background-color: #f44336;} 
+.css {width: 70%; background-color: #f44336;} 
+.c {width: 90%; background-color: #f44336;} 
+.python {width: 50%; background-color: #f44336;} 
+.js {width: 20%; background-color: #f44336;} 
+.Libraries{
+    margin-top:20px;
+}
+p{
+    margin-top: 10px;
+}
+footer{
+    background-color: transparent;
+    text-align: center;
+}
+.container11{
+    height:auto;
+}
+#section2{
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/09/24/08/37/pixel-3699342_960_720.png"); */
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    /* background-attachment: fixed; */
+    background-position-x: 40%;
+    background-position-y: 20%;
+    color:#2980B9;
+    /* margin:0%;
+    padding-left:10%;
+    padding-top:10%;
+    background-size: auto; */
+    /* border-right-color: #95A5A6; */
+    /* width: 100%; */
+}
+#section3{
+    margin-top:10%;
+    padding-top:10%;
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/09/24/08/37/pixel-3699344_960_720.png"); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position-x: 40%;
+    background-position-y: 20%;
+    color:#E74C3C;
+}
+.about{
+    padding-top: 10%;
+}
+.skilltext{
+    color:black;
+}
+.btn-skill{
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    background-size: 200% auto;
+    color: white;
+   text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 1px;
+}
+.btn-1-skill {
+    background-color:#A3E4D7;
+    color:black;
+  }
+  .about-text{
+      padding-top:10%;
+  }
+.about-section{
+    background-color:#F7DC6F;
+}
+.skill-section{
+    background-color:whitesmoke; 
+    padding-bottom: 10%;   
+}
+.buttons{
+    margin-top:15%;
+}
+.nametext{
+    font-size: 6vw;
+}
+.contact-section{
+    background-color:pink;
+    margin-bottom: 0;
+    /* padding-top:10%; 
+    margin-top:10%; */
+}
+#section4{
+    padding-top:10%; 
+}
+.git{
+    font-size: 150px;
+    padding-top: 10%;
+    color:black;
+}
