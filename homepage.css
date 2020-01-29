@@ -6,12 +6,29 @@
     0% {visibility: hidden};
     100%{visibility: initial};
 }
+@media only screen and (max-width:600px){
 body{
     font-family: 'Press Start 2P', cursive;
     margin:0;
-    background-color:#2E4053;
-    
+    /* background-color:#2E4053; */
+    background-image: url('https://media.giphy.com/media/TTy5YmVmhmWhq/giphy.gif');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+}
+@media only screen and (min-width:600px){
+body{
+    font-family: 'Press Start 2P', cursive;
+    margin:0;
+    /* background-color:#2E4053; */
+    background-image: url('https://media.giphy.com/media/PTFRmGOgiPUS4/giphy.gif');
+     background-size:140%;
+    background-repeat: no-repeat;
   }
+.nametext{
+    color:#F1C40F;
+}
+}
   .navbar-toggler{
       background-color: aliceblue;
   }
@@ -54,7 +71,7 @@ body{
   }
   
   .btn-1 {
-    background-color:#F5CBA7;
+    background-color:gray;
     color:black;
   }
   
@@ -137,7 +154,7 @@ p{
     margin-top: 10px;
 }
 footer{
-    background-color: transparent;
+    /* background-color: transparent; */
     text-align: center;
 }
 .container11{
@@ -213,9 +230,10 @@ footer{
     margin-bottom: 0;
     /* padding-top:10%; 
     margin-top:10%; */
+    padding-bottom: 10px;;
 }
 #section4{
-    padding-top:10%; 
+    padding-top:7%; 
 }
 .git{
     font-size: 150px;
