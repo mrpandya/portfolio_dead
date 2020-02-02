@@ -15,6 +15,12 @@ body{
     background-size: auto;
     background-repeat: no-repeat;
 }
+footer{
+    font-size:10px;
+}
+.about-section{
+    background-color:#53560C;
+}
 }
 @media only screen and (min-width:600px){
 body{
@@ -266,3 +272,9 @@ footer{
         margin-left: 80%;
     }
 }
+.btn-primary:hover{
+    background-color: red;
+}
+/* @keyframes example {from {background-color: red;}to {background-color: green;}} */
+
+/* document.getElementById("sendbutton").style="animation-name:example;animation-duration:2s;" */
