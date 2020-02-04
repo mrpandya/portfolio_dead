@@ -1,7 +1,7 @@
 function cleary()
 {
    var name=document.getElementById("name").value;
-   var email= 'nishitlimbani130@gmail.com';
+   var email="mrpandya2017@gmail.com";
    var subject=document.getElementById("subject").value;
    var message=document.getElementById("message").value;
    console.log(name);
@@ -18,7 +18,7 @@ function cleary()
    // location.reload();
 }
 //correct ans
-//background-color:#7CE227;
+//background-color:#7CE227; email'nishitlimbani130@gmail.com'
 //
 // function cleary()
 // {
